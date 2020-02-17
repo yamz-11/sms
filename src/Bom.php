@@ -1,15 +1,15 @@
 <?php
-namespace SimpleSpam;
+namespace BomSMS;
 
 class Otp {
 	/*
-	* Name : Simple Spam Otp
-	* File : otp.php
-	* Author : DulLah
-	* Github : https://github.com/dz-id
-	* Telegram : https://t.me/unikers
-	* Date : 26-01-2020
-	* Version : 1.0
+	Name : Bom
+	File : bom.php
+	Author : yamzzzzz
+	Github : https://github.com/yamz-11
+	
+
+	
 	*/
 	protected static $agent;
 
@@ -21,7 +21,7 @@ class Otp {
 	}
 
 	private function GetCookieMyPoin() {
-		$ch = curl_init("https://mypoin.id/register/validate-phone-number");
+		$ch = curl_init("httpsmypoin.id/register/validate-phone-number");
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_HEADER, 1);
 		curl_setopt($ch, CURLOPT_USERAGENT, self::$agent);
