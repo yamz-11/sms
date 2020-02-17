@@ -1,13 +1,13 @@
 <?php
 /*
-* Name : Simple Spam Otp
-* File : version.php
-* Author : DulLah
-* Github : https://github.com/dz-id
-* Telegram : https://t.me/unikers
-* Date : 26-01-2020
-* Version : 1.0
-*/
+ Name : BomSMS
+ File : version.php
+ Author : yamzzzz
+ Github : https://github.com/yamz-11
+ */
+
+
+
 
 function CekUp() {
 	$ch = curl_init("https://raw.githubusercontent.com/dz-id/SimpleSpamOtp/master/version.txt");
@@ -19,3 +19,5 @@ function CekUp() {
 		system("cd ..;git clone https://github.com/dz-id/SimpleSpamOtp");
 	}
 } CekUp();?>
+		
+	
